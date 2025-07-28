@@ -1,36 +1,95 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Sanwariya Career Technology
+
+Sanwariya Career Technology is a platform dedicated to empowering students with career-focused internships and education. This project provides a modern web application built with Next.js, Tailwind CSS, and other cutting-edge technologies.
+
+## Features
+
+- **Free Internship Programs**: Offers hands-on experience in Web Development, AI/ML, Blockchain, Digital Marketing, and more.
+- **SEO Optimized**: Includes metadata and structured data for better search engine visibility.
+- **Responsive Design**: Ensures a seamless experience across devices.
+- **PWA Support**: Includes a manifest file for Progressive Web App capabilities.
+
+## Technologies Used
+
+- **Next.js**: Framework for server-rendered React applications.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **AOS (Animate On Scroll)**: Library for scroll animations.
+- **Lucide Icons**: Icon library for React.
+- **Framer Motion**: Animation library for React.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Node.js (v18.18.0 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repo/sanwariya-career-technology.git
+   cd sanwariya-career-technology
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Development
+
+To start the development server with Turbopack:
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The application will be available at `http://sanwariyacareertechnology.com`.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+To build the application for production:
+```bash
+npm run build
+```
 
-## Learn More
+To start the production server:
+```bash
+npm start
+```
 
-To learn more about Next.js, take a look at the following resources:
+### Linting
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To run lint checks:
+```bash
+npm run lint
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Project Structure
 
-## Deploy on Vercel
+```
+sanwariya-career-technology/
+├── app/                # Application pages and components
+├── public/             # Static assets
+├── styles/             # Global styles
+├── .next/              # Next.js build output
+├── package.json        # Project dependencies and scripts
+├── next.config.mjs     # Next.js configuration
+├── postcss.config.mjs  # PostCSS configuration
+├── tailwind.config.js  # Tailwind CSS configuration
+└── README.md           # Project documentation
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project can be deployed to platforms like Vercel, Netlify, or any Node.js hosting service. Ensure the environment variables are properly configured for production.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For inquiries, reach out to:
+- **Email**: info@sanwariya.tech
+- **Website**: [http://sanwariyacareertechnology.com](http://sanwariyacareertechnology.com)

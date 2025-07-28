@@ -49,10 +49,10 @@ export const metadata = {
     title: "Sanwariya Career Technology",
     statusBarStyle: "default",
   },
-  manifest: "/manifest.json",
+  manifest: "/favicon-for-app/manifest.json",
   icons: {
-    icon: "/favicon.ico",
-    apple: "/apple-touch-icon.png",
+    icon: "/favicon-for-app/favicon.ico",
+    apple: "/favicon-for-app/apple-icon.png",
     shortcut: "/favicon-16x16.png",
   },
 };

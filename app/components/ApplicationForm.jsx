@@ -108,7 +108,7 @@ const ApplicationForm = () => {
 
                   {/* Replace this with your actual Google Form embed code */}
                   <iframe
-                    src="https://docs.google.com/forms/d/e/1FAIpQLSf_EXAMPLE_FORM_ID/viewform?embedded=true"
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSekMUNkP0atGsSzN5LnuR3qHGeDx8yZD1VFnIhz5czm2OydXA/viewform?embedded=true"
                     width="100%"
                     height="600"
                     frameBorder="0"
@@ -123,7 +123,7 @@ const ApplicationForm = () => {
                   {/* Fallback Link */}
                   <div className="mt-6">
                     <a
-                      href="https://docs.google.com/forms/d/e/1FAIpQLSf_EXAMPLE_FORM_ID/viewform"
+                      href="https://forms.gle/Mya85RsLQEqtGbVH6"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center bg-gradient-to-r from-[#2196F3] to-[#1976D2] text-white px-8 py-3 rounded-full font-semibold hover:from-[#1976D2] hover:to-[#1565C0] transition-all duration-300"
@@ -181,7 +181,7 @@ const ApplicationForm = () => {
 
             <div className="grid md:grid-cols-3 gap-4">
               <a
-                href="mailto:admissions@sanwariya.tech"
+                href="mailto:bharatmolwa2000@gmail.com"
                 className="flex items-center justify-center bg-blue-50 hover:bg-[#BBDEFB] rounded-lg p-4 transition-colors duration-300"
               >
                 <div className="text-center">
@@ -202,7 +202,7 @@ const ApplicationForm = () => {
               </a>
 
               <a
-                href="tel:+919876543210"
+                href="tel:+918966851168"
                 className="flex items-center justify-center bg-[#C8E6C9] hover:bg-[#C8E6C9] rounded-lg p-4 transition-colors duration-300"
               >
                 <div className="text-center">
@@ -222,7 +222,7 @@ const ApplicationForm = () => {
               </a>
 
               <a
-                href="https://wa.me/919876543210"
+                href="https://wa.me/+918966851168"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center bg-green-50 hover:bg-green-100 rounded-lg p-4 transition-colors duration-300"

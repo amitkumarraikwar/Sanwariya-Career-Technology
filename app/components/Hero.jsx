@@ -56,6 +56,12 @@ export default function Hero() {
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
+                  onClick={() => {
+                    window.open(
+                      "https://forms.gle/DkKA6MrGV3z184Va6",
+                      "_blank"
+                    );
+                  }}
                   className="bg-[#1976D2] text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#1565C0] transition-all shadow-lg flex items-center justify-center gap-2"
                 >
                   Apply Now - It's Free
@@ -64,6 +70,12 @@ export default function Hero() {
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
+                  onClick={() => {
+                    window.open(
+                      "https://forms.gle/DkKA6MrGV3z184Va6",
+                      "_blank"
+                    );
+                  }}
                   className="border-2 border-[#1976D2] text-[#1976D2] px-8 py-4 rounded-xl font-semibold text-lg hover:bg-blue-50 transition-all"
                 >
                   Learn More
@@ -107,8 +119,13 @@ export default function Hero() {
             >
               <div className="bg-gradient-to-br from-[#BBDEFB] to-green-100 p-8 rounded-3xl shadow-xl max-w-md">
                 <div className="text-center space-y-6">
-                  <div className="w-24 h-24 bg-[#1976D2] rounded-full flex items-center justify-center mx-auto">
-                    <span className="text-white text-3xl">👥</span>
+                  <div className="w-24 h-24 rounded-full flex items-center justify-center mx-auto">
+                    <Image
+                      src="/svg-img.png"
+                      alt="Community"
+                      width={100}
+                      height={100}
+                    />
                   </div>
 
                   <div>

@@ -46,12 +46,12 @@ export default function Navbar() {
                 className="mb-3"
                 src="/svg-img.png"
                 alt="Logo"
-                width={100}
-                height={100}
+                width={150}
+                height={150}
               />
             </div>
             <div>
-              <img src="/name.png" alt="Logo" width={150} height={150} />
+              <img src="/name.png" alt="Logo" width={200} height={200} />
             </div>
           </motion.div>
 

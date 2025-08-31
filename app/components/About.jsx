@@ -11,7 +11,7 @@ const About = () => {
 
   const timelineItems = [
     {
-      year: "2019",
+      year: "2021",
       title: "Foundation",
       description:
         "Started with a vision to bridge the gap between academic learning and industry requirements.",
@@ -19,7 +19,7 @@ const About = () => {
       color: "blue",
     },
     {
-      year: "2020",
+      year: "2022",
       title: "First Batch",
       description:
         "Successfully trained our first batch of 50 students in web development and digital marketing.",
@@ -27,7 +27,7 @@ const About = () => {
       color: "mint",
     },
     {
-      year: "2021",
+      year: "2023",
       title: "Expansion",
       description:
         "Expanded to include AI/ML, blockchain, and mobile app development programs.",
@@ -35,7 +35,7 @@ const About = () => {
       color: "blush",
     },
     {
-      year: "2023",
+      year: "2024",
       title: "Milestone",
       description:
         "Reached 1,150+ students trained with 95% placement rate and industry recognition.",

@@ -149,7 +149,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#apply"
+                  href="https://forms.gle/Mya85RsLQEqtGbVH6"
                   className="text-gray-300 hover:text-white transition-colors duration-300"
                 >
                   Apply Now
@@ -245,9 +245,9 @@ const Footer = () => {
                 <MapPin className="w-5 h-5 text-primary-400 mt-1 flex-shrink-0" />
                 <div>
                   <p className="text-gray-300">
-                    123, Tech Park, Scheme No. 74C,
+                    IET DAVV Incubation Centre,
                     <br />
-                    Vijay Nagar, Indore, MP 452010
+                    Khandwa Road, Indore, Madhya Pradesh, 452001
                   </p>
                 </div>
               </div>
@@ -255,20 +255,20 @@ const Footer = () => {
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-primary-400 flex-shrink-0" />
                 <a
-                  href="tel:+919876543210"
+                  href="tel:+918966851168"
                   className="text-gray-300 hover:text-white transition-colors duration-300"
                 >
-                  +91 98765 43210
+                  +91 89668 51168
                 </a>
               </div>
 
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-primary-400 flex-shrink-0" />
                 <a
-                  href="mailto:info@sanwariya.tech"
+                  href="mailto:bharatmolwa2000@gmail.com"
                   className="text-gray-300 hover:text-white transition-colors duration-300"
                 >
-                  info@sanwariya.tech
+                  bharatmolwa2000@gmail.com
                 </a>
               </div>
             </motion.div>

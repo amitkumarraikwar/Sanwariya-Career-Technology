@@ -14,73 +14,100 @@ const Gallery = () => {
   const galleryImages = [
     {
       id: 1,
-      src: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800",
-      title: "Web Development Workshop",
-      date: "March 2024",
-      location: "Indore Campus",
+      src: "/campus/campuss11.jpeg",
+      // title: "Web Development Workshop",
+      // date: "March 2024",
+      // location: "Indore Campus",
       description:
         "Students learning React and modern web development frameworks in our hands-on workshop.",
     },
     {
       id: 2,
-      src: "https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&cs=tinysrgb&w=800",
-      title: "AI/ML Bootcamp",
-      date: "February 2024",
-      location: "Tech Center",
+      src: "/campus/campuss12.jpeg",
+      // title: "AI/ML Bootcamp",
+      // date: "February 2024",
+      // location: "Tech Center",
       description:
         "Intensive machine learning session covering TensorFlow and real-world applications.",
     },
     {
       id: 3,
-      src: "https://images.pexels.com/photos/3184611/pexels-photo-3184611.jpeg?auto=compress&cs=tinysrgb&w=800",
-      title: "Project Presentation Day",
-      date: "January 2024",
-      location: "Main Auditorium",
+      src: "/campus/campuss13.jpeg",
+      // title: "Project Presentation Day",
+      // date: "January 2024",
+      // location: "Main Auditorium",
       description:
         "Students showcasing their final projects to industry experts and mentors.",
     },
     {
       id: 4,
-      src: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800",
-      title: "Mobile App Development",
-      date: "February 2024",
-      location: "Lab 2",
+      src: "/campus/campuss14.jpeg",
+      // title: "Mobile App Development",
+      // date: "February 2024",
+      // location: "Lab 2",
       description:
         "Hands-on session on React Native and Flutter development with live coding.",
     },
     {
       id: 5,
-      src: "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=800",
-      title: "Industry Expert Session",
-      date: "March 2024",
-      location: "Conference Room",
+      src: "/campus/campuss15.jpeg",
+      // title: "Industry Expert Session",
+      // date: "March 2024",
+      // location: "Conference Room",
       description:
         "Guest lecture by senior developers from leading tech companies.",
     },
     {
       id: 6,
-      src: "https://images.pexels.com/photos/3184357/pexels-photo-3184357.jpeg?auto=compress&cs=tinysrgb&w=800",
-      title: "Team Collaboration",
-      date: "January 2024",
-      location: "Co-working Space",
+      src: "/campus/campuss16.jpeg",
+      // title: "Team Collaboration",
+      // date: "January 2024",
+      // location: "Co-working Space",
       description:
         "Students working together on group projects and peer learning sessions.",
     },
     {
       id: 7,
-      src: "https://images.pexels.com/photos/3184420/pexels-photo-3184420.jpeg?auto=compress&cs=tinysrgb&w=800",
-      title: "Blockchain Workshop",
-      date: "December 2023",
-      location: "Innovation Lab",
+      src: "/campus/campuss17.jpeg",
+      // title: "Blockchain Workshop",
+      // date: "December 2023",
+      // location: "Innovation Lab",
       description:
         "Exploring smart contracts and decentralized applications development.",
     },
     {
       id: 8,
-      src: "https://images.pexels.com/photos/3184394/pexels-photo-3184394.jpeg?auto=compress&cs=tinysrgb&w=800",
-      title: "Graduation Ceremony",
-      date: "April 2024",
-      location: "Main Hall",
+      src: "/campus/campuss18.jpeg",
+      // title: "Graduation Ceremony",
+      // date: "April 2024",
+      // location: "Main Hall",
+      description:
+        "Celebrating successful completion of internship programs with certificates.",
+    },
+    {
+      id: 6,
+      src: "/campus/campuss19.jpeg",
+      // title: "Team Collaboration",
+      // date: "January 2024",
+      // location: "Co-working Space",
+      description:
+        "Students working together on group projects and peer learning sessions.",
+    },
+    {
+      id: 7,
+      src: "/campus/campuss20.jpeg",
+      // title: "Blockchain Workshop",
+      // date: "December 2023",
+      // location: "Innovation Lab",
+      description:
+        "Exploring smart contracts and decentralized applications development.",
+    },
+    {
+      id: 8,
+      src: "/campus/campuss21.jpeg",
+      // title: "Graduation Ceremony",
+      // date: "April 2024",
+      // location: "Main Hall",
       description:
         "Celebrating successful completion of internship programs with certificates.",
     },
@@ -205,9 +232,12 @@ const Gallery = () => {
               us.
             </p>
             <motion.button
-              className="bg-white text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors duration-300"
+              className="bg-white cursor-pointer text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors duration-300"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
+              onClick={() => {
+                window.open("https://forms.gle/8RPiNjxboGcv6ous7", "_blank");
+              }}
             >
               Apply for Internship
             </motion.button>

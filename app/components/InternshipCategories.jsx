@@ -178,7 +178,12 @@ const InternshipCategories = () => {
                   className={`bg-gradient-to-r ${category.gradient} text-white rounded-lg p-4 flex items-center justify-between group-hover:shadow-lg transition-all duration-300`}
                   whileHover={{ scale: 1.02 }}
                 >
-                  <span className="font-semibold">Apply Now</span>
+                  <a
+                    href="https://forms.gle/DkKA6MrGV3z184Va6"
+                    className="font-semibold"
+                  >
+                    Apply Now
+                  </a>
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
                 </motion.div>
               </div>
@@ -205,6 +210,9 @@ const InternshipCategories = () => {
               className="bg-white text-[#1976D2] px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors duration-300"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
+              onClick={() => {
+                window.open("https://forms.gle/DkKA6MrGV3z184Va6", "_blank");
+              }}
             >
               Get Free Career Counseling
             </motion.button>

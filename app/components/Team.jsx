@@ -11,16 +11,6 @@ const Team = () => {
 
   const teamMembers = [
     {
-      name: "Praphull Pandey",
-      title: "CEO",
-      bio: "CEO with 10+ years in tech and education, passionate about mentoring future leaders.",
-      image: "/expert/experts1.jpeg",
-      linkedin: "#",
-      email: "praphullpandey@gmail.com",
-      expertise: ["Leadership", "Strategy", "Mentorship"],
-      funFact: "Mentored 200+ students to successful careers",
-    },
-    {
       name: "Bharat Molwa",
       title: "Founder",
       bio: "Founder with a background in curriculum design and student success strategies.",
@@ -29,6 +19,16 @@ const Team = () => {
       email: "bharatmolwa2000@gmail.com",
       expertise: ["Curriculum Design", "Program Management", "Student Success"],
       funFact: "Created 20+ successful training programs",
+    },
+    {
+      name: "Praphull Pandey",
+      title: "CEO",
+      bio: "CEO with 10+ years in tech and education, passionate about mentoring future leaders.",
+      image: "/expert/experts1.jpeg",
+      linkedin: "#",
+      email: "praphullpandey@gmail.com",
+      expertise: ["Leadership", "Strategy", "Mentorship"],
+      funFact: "Mentored 200+ students to successful careers",
     },
     {
       name: "Shiwani Ahirwar",

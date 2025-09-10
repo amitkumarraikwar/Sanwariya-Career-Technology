@@ -41,7 +41,7 @@ const Team = () => {
       funFact: "Developed 10+ full-stack applications",
     },
     {
-      name: "Rahul Chaurasiya",
+      name: "Vikash Singh",
       title: "CTO",
       bio: "CTO with 8+ years in software engineering and a passion for teaching coding skills.",
       image: "/expert/manas.jpg",
@@ -51,7 +51,7 @@ const Team = () => {
       funFact: "Increased brand engagement by 40% through targeted campaigns",
     },
     {
-      name: "Vikash Singh",
+      name: "Rahul Chaurasiya",
       title: "Operations Associate",
       bio: "Operations Associate with a knack for process optimization and quality assurance.",
       image: "/expert/rahul.jpg",

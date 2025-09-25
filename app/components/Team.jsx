@@ -43,7 +43,7 @@ const Team = () => {
     {
       name: "Vikash Singh",
       title: "CTO",
-      bio: "CTO with 8+ years in software engineering and a passion for teaching coding skills.",
+      bio: "CTO with 5+ years in software engineering and a passion for teaching coding skills.",
       image: "/expert/manas.jpg",
       linkedin: "#",
       email: "rahulchaurasiya#gmail.com",

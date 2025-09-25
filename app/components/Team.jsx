@@ -23,7 +23,7 @@ const Team = () => {
     {
       name: "Praphull Pandey",
       title: "CEO",
-      bio: "CEO with 10+ years in tech and education, passionate about mentoring future leaders.",
+      bio: "CEO with 3+ years in tech and education, passionate about mentoring future leaders.",
       image: "/expert/experts1.jpeg",
       linkedin: "#",
       email: "praphullpandey@gmail.com",
@@ -49,16 +49,6 @@ const Team = () => {
       email: "rahulchaurasiya#gmail.com",
       expertise: ["Digital Marketing", "Brand Strategy", "Analytics"],
       funFact: "Increased brand engagement by 40% through targeted campaigns",
-    },
-    {
-      name: "Rahul Chaurasiya",
-      title: "Operations Associate",
-      bio: "Operations Associate with a knack for process optimization and quality assurance.",
-      image: "/expert/rahul.jpg",
-      linkedin: "#",
-      email: "vikashsingh@gmail.com",
-      expertise: ["Operations", "Process Optimization", "Quality Assurance"],
-      funFact: "Streamlined 10+ operational processes",
     },
   ];
 

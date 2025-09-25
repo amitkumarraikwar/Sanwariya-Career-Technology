@@ -41,7 +41,7 @@ const Team = () => {
       funFact: "Developed 10+ full-stack applications",
     },
     {
-      name: "Vikash Singh",
+      name: "Manash Sharma",
       title: "CTO",
       bio: "CTO with 5+ years in software engineering and a passion for teaching coding skills.",
       image: "/expert/manas.jpg",
@@ -49,6 +49,16 @@ const Team = () => {
       email: "rahulchaurasiya#gmail.com",
       expertise: ["Digital Marketing", "Brand Strategy", "Analytics"],
       funFact: "Increased brand engagement by 40% through targeted campaigns",
+    },
+    {
+      name: "Rahul Chaurasiya",
+      title: "Operations Associate",
+      bio: "Operations Associate with a knack for process optimization and quality assurance.",
+      image: "/expert/rahul.jpg",
+      linkedin: "#",
+      email: "vikashsingh@gmail.com",
+      expertise: ["Operations", "Process Optimization", "Quality Assurance"],
+      funFact: "Streamlined 10+ operational processes",
     },
   ];
 

@@ -102,15 +102,15 @@ const Gallery = () => {
       description:
         "Exploring smart contracts and decentralized applications development.",
     },
-    {
-      id: 8,
-      src: "/campus/campuss21.jpeg",
-      // title: "Graduation Ceremony",
-      // date: "April 2024",
-      // location: "Main Hall",
-      description:
-        "Celebrating successful completion of internship programs with certificates.",
-    },
+    // {
+    //   id: 8,
+    //   src: "/campus/campuss21.jpeg",
+    //   // title: "Graduation Ceremony",
+    //   // date: "April 2024",
+    //   // location: "Main Hall",
+    //   description:
+    //     "Celebrating successful completion of internship programs with certificates.",
+    // },
   ];
 
   const openLightbox = (index) => {

@@ -15,7 +15,6 @@ const backgroundImages = [
   "/campus/campuss16.jpeg",
   "/campus/campuss14.jpeg",
   "/campus/campuss19.jpeg",
-  "/campus/campuss21.jpeg",
 ];
 
 export default function Hero() {

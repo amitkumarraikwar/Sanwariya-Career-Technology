@@ -30,7 +30,7 @@ export default function Team() {
                     alt={`${member.name}, ${member.role}`}
                     fill
                     sizes="128px"
-                    className="object-cover object-top group-hover:scale-110 transition-transform duration-500"
+                    className="object-cover object-center group-hover:scale-110 transition-transform duration-500"
                   />
                 </div>
 

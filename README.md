@@ -1,95 +1,62 @@
-# Sanwariya Career Technology
+# Sanwariya Career Technology - Website Redesign
 
-Sanwariya Career Technology is a platform dedicated to empowering students with career-focused internships and education. This project provides a modern web application built with Next.js, Tailwind CSS, and other cutting-edge technologies.
+This is the official redesigned website for **Sanwariya Career Technology**, a free internship and career-training program based in Indore. The site is built with modern web technologies focusing on performance, SEO, accessibility, and a premium "EdTech" aesthetic.
 
-## Features
+## Tech Stack
 
-- **Free Internship Programs**: Offers hands-on experience in Web Development, AI/ML, Blockchain, Digital Marketing, and more.
-- **SEO Optimized**: Includes metadata and structured data for better search engine visibility.
-- **Responsive Design**: Ensures a seamless experience across devices.
-- **PWA Support**: Includes a manifest file for Progressive Web App capabilities.
+- **Framework**: Next.js 15 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS v4 (with design tokens for primary/secondary colors)
+- **Animations**: Framer Motion (respects `prefers-reduced-motion`)
+- **Icons**: Lucide React
+- **Forms**: React Hook Form + Zod validation
+- **Database**: MongoDB (optional connection for storing applications)
+- **Components**: Mobile-first, fully responsive, semantic HTML
 
-## Technologies Used
+## Project Structure
 
-- **Next.js**: Framework for server-rendered React applications.
-- **Tailwind CSS**: Utility-first CSS framework for styling.
-- **AOS (Animate On Scroll)**: Library for scroll animations.
-- **Lucide Icons**: Icon library for React.
-- **Framer Motion**: Animation library for React.
+- `/app` - Next.js App Router (pages, API routes, layout, SEO files)
+- `/components` - Reusable React components (Navbar, Hero, Programs, etc.)
+- `/data` - Single source of truth for all business data, content, and team info
+- `/public` - Static assets, campus and expert photos, logos
 
-## Getting Started
+## Setup Instructions
 
-### Prerequisites
-
-- Node.js (v18.18.0 or higher)
-- npm or yarn
-
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-repo/sanwariya-career-technology.git
-   cd sanwariya-career-technology
-   ```
-
-2. Install dependencies:
+1. **Install dependencies:**
    ```bash
    npm install
    ```
 
-### Development
+2. **Environment Variables:**
+   Create a `.env.local` file in the root directory and configure the following variables (if using the native application form):
+   ```env
+   # MongoDB connection string for storing applications
+   MONGODB_URI=mongodb+srv://<user>:<password>@cluster.mongodb.net/sanwariya
 
-To start the development server with Turbopack:
-```bash
-npm run dev
-```
+   # Email notification settings (optional placeholder)
+   NOTIFY_EMAIL=admin@sanwariya.in
+   SMTP_HOST=smtp.example.com
+   ```
 
-The application will be available at `http://sanwariyacareertechnology.com`.
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+   Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### Production
+4. **Build for Production:**
+   ```bash
+   npm run build
+   npm start
+   ```
 
-To build the application for production:
-```bash
-npm run build
-```
+## Key Features
 
-To start the production server:
-```bash
-npm start
-```
+- **SEO Optimized**: Dynamic `sitemap.ts`, `robots.ts`, proper OpenGraph and Twitter cards, JSON-LD structured data (`EducationalOrganization`).
+- **Performance**: High Lighthouse scores via `next/image` optimization, deferred loading (`next/font`), and intelligent IntersectionObserver for animations (`FadeInOnScroll`, `CountUp`).
+- **Modern Design**: Clean glassmorphism, sticky blurred navbar, animated bento grids, and a seamless auto-advancing testimonial carousel.
+- **Accessibility**: WCAG AA contrast compliance, semantic HTML, visible focus states, and keyboard-navigable interactive elements.
 
-### Linting
+## Content Management
 
-To run lint checks:
-```bash
-npm run lint
-```
-
-## Project Structure
-
-```
-sanwariya-career-technology/
-├── app/                # Application pages and components
-├── public/             # Static assets
-├── styles/             # Global styles
-├── .next/              # Next.js build output
-├── package.json        # Project dependencies and scripts
-├── next.config.mjs     # Next.js configuration
-├── postcss.config.mjs  # PostCSS configuration
-├── tailwind.config.js  # Tailwind CSS configuration
-└── README.md           # Project documentation
-```
-
-## Deployment
-
-This project can be deployed to platforms like Vercel, Netlify, or any Node.js hosting service. Ensure the environment variables are properly configured for production.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For inquiries, reach out to:
-- **Email**: info@sanwariya.tech
-- **Website**: [http://sanwariyacareertechnology.com](http://sanwariyacareertechnology.com)
+All business data (programs, team, testimonials, stats, FAQs) is centralized in the `/data` directory. To update any content, simply edit the corresponding `.ts` file without needing to modify component code. This also lays the groundwork for future i18n support.

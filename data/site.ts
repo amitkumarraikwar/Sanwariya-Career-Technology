@@ -1,0 +1,36 @@
+export const siteConfig = {
+  name: "Sanwariya Career Technology",
+  shortName: "Sanwariya",
+  tagline: "Career Technology",
+  url: "https://www.sanwariyacareertechnology.in",
+  description:
+    "Join India's leading free internship program in Indore. Get hands-on experience in Web Development, AI/ML, Blockchain, Digital Marketing & more. 1,150+ students trained with placement assistance.",
+  email: "sanwariyacareertechnology@gmail.com",
+  phone: "+91 89668 51168",
+  phoneRaw: "+918966851168",
+  whatsapp: "https://wa.me/918966851168",
+  googleFormUrl: "https://docs.google.com/forms/d/1PO6rl1IBWhynLiJKv8Qve3W4ZM3CEB__9b6vUrdt3tY/viewform",
+  address: {
+    line1: "IET DAVV Incubation Centre",
+    line2: "Khandwa Road",
+    city: "Indore",
+    state: "Madhya Pradesh",
+    zip: "452001",
+    country: "IN",
+    mapLink: "https://maps.app.goo.gl/GPidViJkEyUeVmkS8",
+  },
+  businessHours: {
+    weekdays: "Mon – Fri: 9:00 AM – 6:00 PM",
+    saturday: "Sat: 9:00 AM – 2:00 PM",
+    sunday: "Sun: Closed",
+  },
+  coordinates: { lat: 22.7196, lng: 75.8577 },
+  social: {
+    facebook: "https://www.facebook.com/sanwariyacareertechnology",
+    instagram: "https://www.instagram.com/sanwariyacareertechnology",
+    linkedin: "https://www.linkedin.com/company/sanwariya-career-technology",
+    twitter: "https://twitter.com/sanwariyacareer",
+    youtube: "https://www.youtube.com/@sanwariyacareertechnology",
+  },
+  foundingDate: "2021",
+};

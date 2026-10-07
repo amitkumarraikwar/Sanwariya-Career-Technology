@@ -45,19 +45,16 @@ export default function Navbar() {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group" aria-label="Go to top">
-            <div className="relative w-9 h-9">
+            <div className="relative w-40 h-10">
               <Image
-                src="/svg-img.png"
-                alt={`${siteConfig.shortName} logo`}
+                src="/logo-img.png"
+                alt={`${siteConfig.name} logo`}
                 fill
-                sizes="36px"
-                className="object-contain"
+                sizes="(max-width: 640px) 160px, 160px"
+                className="object-contain object-left"
                 priority
               />
             </div>
-            <span className="hidden sm:block font-display font-bold text-lg text-surface-900 group-hover:text-primary-600 transition-colors">
-              {siteConfig.shortName}
-            </span>
           </Link>
 
           {/* Desktop Nav */}

@@ -160,9 +160,14 @@ export default function Footer() {
       <div className="border-t border-surface-800">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-5">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
-            <p className="text-xs text-surface-200/50">
-              © {currentYear} {siteConfig.name}. All rights reserved.
-            </p>
+            <div className="flex flex-col gap-1 items-center sm:items-start">
+              <p className="text-xs text-surface-200/50">
+                © {currentYear} {siteConfig.name}. All rights reserved.
+              </p>
+              <p className="text-xs text-surface-200/50">
+                Built by <span className="font-semibold text-primary-400">NovaEdge Digital Labs</span>
+              </p>
+            </div>
             <div className="flex items-center gap-6">
               <Link
                 href="/privacy-policy"

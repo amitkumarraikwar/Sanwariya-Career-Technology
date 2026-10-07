@@ -49,12 +49,20 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="text-sm font-semibold text-surface-900 mb-1">Phone</h3>
-                  <a
-                    href={`tel:${siteConfig.phoneRaw}`}
-                    className="text-sm text-primary-600 hover:underline"
-                  >
-                    {siteConfig.phone}
-                  </a>
+                  <div className="flex flex-col gap-1">
+                    <a
+                      href={`tel:${siteConfig.phoneRaw}`}
+                      className="text-sm text-primary-600 hover:underline"
+                    >
+                      {siteConfig.phone}
+                    </a>
+                    <a
+                      href={`tel:${siteConfig.phoneRaw2}`}
+                      className="text-sm text-primary-600 hover:underline"
+                    >
+                      {siteConfig.phone2}
+                    </a>
+                  </div>
                 </div>
               </div>
 

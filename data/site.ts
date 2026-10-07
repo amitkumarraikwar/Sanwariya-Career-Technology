@@ -8,6 +8,8 @@ export const siteConfig = {
   email: "sanwariyacareertechnology@gmail.com",
   phone: "+91 89668 51168",
   phoneRaw: "+918966851168",
+  phone2: "+91 81092 80383",
+  phoneRaw2: "+918109280383",
   whatsapp: "https://wa.me/918966851168",
   googleFormUrl: "https://docs.google.com/forms/d/1PO6rl1IBWhynLiJKv8Qve3W4ZM3CEB__9b6vUrdt3tY/viewform",
   address: {

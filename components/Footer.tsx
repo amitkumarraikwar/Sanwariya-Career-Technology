@@ -133,14 +133,22 @@ export default function Footer() {
                   {siteConfig.address.zip}
                 </a>
               </div>
-              <div className="flex gap-3 items-center">
-                <Phone className="w-4 h-4 text-primary-400 shrink-0" />
-                <a
-                  href={`tel:${siteConfig.phoneRaw}`}
-                  className="text-sm text-surface-200/70 hover:text-white transition-colors"
-                >
-                  {siteConfig.phone}
-                </a>
+              <div className="flex gap-3 items-start">
+                <Phone className="w-4 h-4 text-primary-400 shrink-0 mt-0.5" />
+                <div className="flex flex-col gap-1">
+                  <a
+                    href={`tel:${siteConfig.phoneRaw}`}
+                    className="text-sm text-surface-200/70 hover:text-white transition-colors"
+                  >
+                    {siteConfig.phone}
+                  </a>
+                  <a
+                    href={`tel:${siteConfig.phoneRaw2}`}
+                    className="text-sm text-surface-200/70 hover:text-white transition-colors"
+                  >
+                    {siteConfig.phone2}
+                  </a>
+                </div>
               </div>
               <div className="flex gap-3 items-center">
                 <Mail className="w-4 h-4 text-primary-400 shrink-0" />

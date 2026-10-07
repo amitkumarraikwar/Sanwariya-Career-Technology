@@ -8,6 +8,9 @@ import Link from "next/link";
 import { heroStats } from "@/data/content";
 
 const backgroundImages = [
+  "/campus/campuss1.jpeg",
+  "/campus/campuss2.jpeg",
+  "/campus/campuss3.jpeg",
   "/campus/campuss18.jpeg",
   "/campus/campuss16.jpeg",
   "/campus/campuss14.jpeg",

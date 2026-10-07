@@ -25,11 +25,11 @@ export const teamMembers: TeamMember[] = [
     skills: ["Leadership", "Strategy", "Mentorship"],
   },
   {
-    name: "Shiwani Ahirwar",
+    name: "Himanshu Agnihotri",
     role: "Manager",
     bio: "Operations manager with strong organizational skills and a focus on process efficiency.",
-    image: "/expert/experts3.jpeg",
-    linkedin: "https://www.linkedin.com/in/shiwaniahirwar/",
+    image: "/expert/experts.jpeg",
+    linkedin: "https://www.linkedin.com/",
     skills: ["Operations", "Team Management", "Process Optimization"],
   },
   {

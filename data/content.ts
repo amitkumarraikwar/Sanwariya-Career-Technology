@@ -51,6 +51,9 @@ export const heroStats = [
 ];
 
 export const galleryImages = [
+  { src: "/campus/campuss1.jpeg", alt: "Students in Campus" },
+  { src: "/campus/campuss2.jpeg", alt: "Learning session" },
+  { src: "/campus/campuss3.jpeg", alt: "Campus Event" },
   { src: "/campus/campuss11.jpeg", alt: "Web Development Workshop at Sanwariya Campus" },
   { src: "/campus/campuss12.jpeg", alt: "AI/ML Bootcamp session" },
   { src: "/campus/campuss13.jpeg", alt: "Project Presentation Day" },

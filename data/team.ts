@@ -49,11 +49,11 @@ export const teamMembers: TeamMember[] = [
     skills: ["Operations", "Process Optimization", "Quality Assurance"],
   },
   {
-    name: "Amit Kumar Raikwar",
+    name: "Manas Chouhan",
     role: "Full-Stack Developer",
     bio: "Full-stack developer passionate about creating innovative web apps and platforms.",
     image: "/expert/manas.jpg",
-    linkedin: "https://www.linkedin.com/in/amitkumarraikwar/",
+    linkedin: "https://www.linkedin.com/in/manaschouhan/",
     skills: ["Web Development", "UI/UX Design", "App Development"],
   },
 ];
